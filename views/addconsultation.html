@@ -52,12 +52,7 @@
 			return false;
 
 		}
-        if (document.getElementById("secteur").value=="") {
-			alert("Pensez à taper un secteur !");
-			document.getElementById("secteur").focus();
-			return false;
-
-		}
+        
         if (document.getElementById("tel").value==0) {
 			alert("Pensez à taper un tel !");
 			document.getElementById("tel").focus();
@@ -85,7 +80,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label"><i class="fa fa-user"></i> date </label>
                                     <div class="col-md-9">
-                                        <input class="form-control" type="date" name="date" id="date">
+                                        <input class="form-control" type="date" name="date" id="date" min="2021-01-01" max="2021-12-31">
                                     </div>
                                 </div>
 

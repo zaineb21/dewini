@@ -40,7 +40,7 @@
 
         <!--page-header open-->
         <div class="page-header">
-            <h4 class="page-title">add deleveryman</h4>
+            <h4 class="page-title">supprimer une consultaion</h4>
             <ol class="breadcrumb">
 
             </ol>

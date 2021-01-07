@@ -26,15 +26,15 @@
                            
                             <label>date</label>
                                 <div class="col-md-9">
-                                    <input  type="date" name="date"id="prenom">
+                                    <input  type="date" name="date"id="date"  min="2021-01-01" max="2021-12-31">
                                 </div>
                             <label>heure</label>
                                 <div class="col-md-9">
-                                    <input  type="number" name="heure"id="prenom">
+                                    <input  type="number" name="heure"id="heure">
                                 </div>
                             <label>information importante</label>
                                 <div class="col-md-9">
-                                    <input  type="text" name="info"id="prenom">
+                                    <input  type="text" name="info"id="info">
                                 </div>
                            
                             
